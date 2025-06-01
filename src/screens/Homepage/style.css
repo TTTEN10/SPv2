@@ -13,7 +13,7 @@
   flex-direction: column;
   left: 0;
   position: absolute;
-  top: 709px;
+  top: 830px;
   width: 1440px;
 }
 
@@ -274,10 +274,10 @@
   align-self: stretch;
   color: #333461;
   font-family: "Titillium Web", Helvetica;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 600;
   letter-spacing: 0;
-  line-height: 20px;
+  line-height: 32px;
   margin-top: -1.00px;
   position: relative;
 }
@@ -354,12 +354,12 @@
 }
 
 .homepage .rectangle {
-  height: 42px;
+  height: 48px;
+  width: 48px;
   left: 60px;
   object-fit: cover;
   position: absolute;
-  top: 9px;
-  width: 42px;
+  top: 13px;
 }
 
 .homepage .navigation {
@@ -369,18 +369,20 @@
   position: absolute;
   top: 0;
   width: 1440px;
+  display: flex;
+  align-items: center;
 }
 
 .homepage .group {
-  height: 35px;
+  height: 48px;
   left: 69px;
   position: relative;
-  top: 16px;
   width: 170px;
 }
 
 .homepage .logo {
-  height: 35px;
+  height: 48px;
+  width: 48px;
   overflow: hidden;
   position: relative;
 }
@@ -412,7 +414,7 @@
   line-height: normal;
   position: absolute;
   text-align: right;
-  top: 22px;
+  top: 16px;
   white-space: nowrap;
   width: 97px;
 }
@@ -421,7 +423,7 @@
   height: 606px;
   left: 0;
   position: absolute;
-  top: 60px;
+  top: 80px;
   width: 1380px;
 }
 
@@ -675,4 +677,30 @@
   position: absolute;
   top: 2134px;
   width: 716px;
+}
+
+.homepage .tagline-section {
+  position: absolute;
+  top: 750px;
+  left: 0;
+  right: 0;
+  padding: 32px;
+  background-color: var(--off-white-purple);
+  text-align: center;
+}
+
+.homepage .tagline {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.homepage .tagline .p {
+  color: var(--dark-green);
+  font-family: "Titillium Web", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin: 0;
+  opacity: 0.7;
 }

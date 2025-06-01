@@ -4,94 +4,6 @@ import "./style.css";
 export const Homepage = () => {
   return (
     <div className="homepage">
-      <footer className="footer">
-        <div className="section">
-          <div className="container">
-            <div className="content">
-              <div className="div">
-                <p className="heading">Get notified about our services</p>
-
-                <p className="supporting-text">
-                  Stay up to date with the latest announcements, and articles.
-                </p>
-              </div>
-
-              <div className="email-capture">
-                <div className="input-field">
-                  <div className="div-2">
-                    <div className="div-2">
-                      <div className="input">
-                        <div className="content-2">
-                          <input
-                            className="text"
-                            placeholder="Enter your email"
-                            type="email"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <button className="button">
-                  <div className="button-base">
-                    <div className="text-wrapper">Join our waitlist</div>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="container-wrapper">
-          <div className="content-wrapper">
-            <div className="content-3">
-              <p className="p">
-                Enabling great mental health services on a safe data management
-                environment
-              </p>
-
-              <div className="logo-and-supporting" />
-
-              <div className="links">
-                <div className="div">
-                  <div className="footer-links-column">
-                    <div className="heading-2">Contact</div>
-
-                    <div className="footer-links">
-                      <div className="footer-link">
-                        <div className="button-base-wrapper">
-                          <div className="flexcontainer-wrapper">
-                            <div className="flexcontainer">
-                              <p className="text-i">
-                                <span className="span">
-                                  contact@safepsy.com
-                                  <br />
-                                </span>
-                              </p>
-
-                              <p className="text-i">
-                                <span className="span">
-                                  Instagram <br />
-                                </span>
-                              </p>
-
-                              <p className="text-i">
-                                <span className="span">LinkedIn</span>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-
       <div className="overlap-group">
         <img
           className="rectangle"
@@ -196,6 +108,60 @@ export const Homepage = () => {
         alt="Content digital"
         src="https://c.animaapp.com/gz3oTBma/img/content-digital-1-1.png"
       />
+
+      <div className="tagline-section">
+        <div className="tagline">
+          <p className="p">
+            Enabling great mental health services on a safe data management
+            environment
+          </p>
+        </div>
+      </div>
+
+      <footer className="footer">
+        <div className="container-wrapper">
+          <div className="content-wrapper">
+            <div className="content-3">
+              <div className="logo-and-supporting" />
+
+              <div className="links">
+                <div className="div">
+                  <div className="footer-links-column">
+                    <div className="heading-2">Contact</div>
+
+                    <div className="footer-links">
+                      <div className="footer-link">
+                        <div className="button-base-wrapper">
+                          <div className="flexcontainer-wrapper">
+                            <div className="flexcontainer">
+                              <p className="text-i">
+                                <span className="span">
+                                  contact@safepsy.com
+                                  <br />
+                                </span>
+                              </p>
+
+                              <p className="text-i">
+                                <span className="span">
+                                  Instagram <br />
+                                </span>
+                              </p>
+
+                              <p className="text-i">
+                                <span className="span">LinkedIn</span>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
